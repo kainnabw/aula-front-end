@@ -1,0 +1,236 @@
+header{
+    background-color:#00635A;
+    height: 160px;
+    width: 100%;
+    position :relative
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.carrinho{
+    background: url(imagem/carrinho.png) no-repeat;
+    font-size: 20px;
+    padding-right: 50px;
+    text-align: right;
+    width: 335px;
+    height: 9%;
+    background-size:contain;
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;  
+    color: white;
+}
+nav{
+    font-size: 15px;
+    display: inline;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+nav ul{
+    display: flex;
+    column-gap: 30px;
+    margin-right: 50px;
+    padding: 10px;
+    color: white;
+}
+.apex{
+    height: 70px;
+    width: 70px;
+    margin-right: 65%;
+}
+
+/* divisão acima é somente o hearder a partir daqui é main */
+
+
+.menu-conteudo {
+    background-color: #00E3CC;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 50%;
+    width: 230px;
+    float: left;
+    text-align: center;
+}
+
+
+
+.menu-conteudo li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-conteudo a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.menu-conteudo {
+    clear: left;
+}
+
+
+
+.menu-conteudo { 
+    margin-top: 10px; 
+    padding-bottom: 10px;
+} 
+
+
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+
+.aula1 {
+    float: left;
+    background-color:#32A89C;
+    text-align: center;
+}
+
+.aula2 {
+    float: right;
+    background-color: #32A89C;
+    text-align: center;
+}
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.painel a {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+.painel img{
+    width: 50px;
+    height: 50px;
+}
+.imagem_busca{
+    height: 20px;
+    width: 20px;
+}
+.busca{
+    text-align: center;
+    
+    
+}
+.menu-conteudo li{
+    text-align: center;
+}
+.busca{
+    background-color: #00E3CC;
+    
+}
+body{
+    background-color: #009688;
+}
+main{
+    
+    height: 700px;
+    width: 100%;
+    /* background-color:pink; */
+}
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    background-color:#00635A;
+    width: 100%;
+    height: 130px;
+}
+.imagem_github{
+height: 50px;
+width: 50px;
+float: right;
+padding-left: 10px;
+
+}
+.imagem_linkedin{
+    height: 50px;
+    width: 50px;
+    float: right;
+    
+}
+.div_footer{
+    width: 30%;
+    height: 100px;
+    margin-left: 50%;
+    
+
+}
+footer img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20%;
+}
+.social a{
+height: 50px;
+width: 50px;
+display: block;
+text-indent: -9999px;
+}
+.social li {
+    float: left;
+    margin-top: 25px;
+    
+}
+.social a[href*="github.com"]{
+    background-image: url(imagem/github.png) ;
+    background-size: contain;
+}
+.social a[href*="linkedin.com"]{
+    background-image: url(imagem/linkedin.png) ;
+    background-size: contain;
+    
+}
+.social{
+ 
+    height: 100%;
+    width: 25%;
+    float: right;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: .2s ease-in;
+}
+
+a:hover {
+    /* color: rgb(29, 46, 105); */
+    background-color: #2faf0b;
+
+}
+
+.imagem_banner{
+    height: 100px;
+    width: 100px;
+}
